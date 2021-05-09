@@ -1,4 +1,4 @@
-FROM openjdk:8
+FROM openjdk:11
 EXPOSE 8050
-ADD target/SpringGitJenkins.jar SpringGitJenkins.jar
-ENTRYPOINT ["java", "-jar", "/SpringGitJenkins.jar"]
+ADD target/test-docker.jar test-docker.jar
+ENTRYPOINT ["java", "-jar", "/test-docker.jar"]
