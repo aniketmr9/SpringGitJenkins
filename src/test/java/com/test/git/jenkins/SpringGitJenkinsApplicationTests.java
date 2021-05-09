@@ -17,5 +17,11 @@ class SpringGitJenkinsApplicationTests {
 		logger.info("Test executed");
 		assertEquals(true, true);
 	}
+	
+	@Test
+	void test2() {
+		logger.info("Test executed 2");
+		assertEquals(true, true);
+	}
 
 }
