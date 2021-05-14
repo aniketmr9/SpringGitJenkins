@@ -15,6 +15,7 @@
 	<description>SpringGitJenkins</description>
 	<properties>
 		<java.version>11</java.version>
+		<exec.mainClass>com.test.git.jenkins.SpringGitJenkinsApplication</exec.mainClass>
 	</properties>
 	<dependencies>
 		<dependency>
